@@ -6,3 +6,10 @@ on:
       from_repo:
         required: false
         type: string
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger workflow in Repo test
+        run: ls
