@@ -1,0 +1,8 @@
+name: Triggered Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      from_repo:
+        required: false
+        type: string
